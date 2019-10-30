@@ -1,49 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-class cat
-{
-    private string name, color;
-    private int age;
-    public cat()
-    {
-
-    }
-    public cat(string name, string color, int age)
-    {
-        this.name = name;
-        this.color = color;
-        this.age = age;
-    }
-    public void SetColor(string color)
-    {
-        this.color = color;
-    }
-    public void SetName(string name)
-    {
-        this.name = name;
-    }
-    public void SetAge(int age)
-    {
-        this.age = age;
-    }
-    public string GetName()
-    {
-        return this.name;
-    }
-    public int GetAge()
-    {
-        return this.age;
-    }
-    public string GetColor()
-    {
-        return this.color;
-    }
-    public void Voice()
-    {
-        Debug.Log(string.Format("{0} орет на крыше", name));
-    }
-}
 public class RotationInst : MonoBehaviour
 {
     Vector3 firstPoint, secondPoint, center, InstObjectScale;
