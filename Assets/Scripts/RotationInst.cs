@@ -7,10 +7,8 @@ public class RotationInst : MonoBehaviour
     public GameObject Cube, Rectangle, IKSphere, LeftSphere, RightSphere, VRScript  ;
     private bool ActiveInstantiateBool = false;
     private GameObject SelectObject, InstObject;
-    cat c = new cat("Жирок", "белый", 1);
     private void Start()
     {
-        c.Voice();
         SelectObject = Cube;
     }
     private void FixedUpdate()
